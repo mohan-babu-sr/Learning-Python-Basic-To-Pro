@@ -1,8 +1,10 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
-
-\f0\fs24 \cf0 Day1}
+### Brand name generator ###
+#1. Create a greeting for your program.
+print("Welcome to the brand name!")
+#2. Ask the user for the city that they grew up in.
+city = input("What's an city you are grown?\n")
+#3. Ask the user for the name of a pet.
+pet_name = input("Name of your pet?\n")
+#4. Combine the name of their city and pet and show them their band name.
+brand_name = city + pet_name
+print("Your brand name could be " + brand_name)
